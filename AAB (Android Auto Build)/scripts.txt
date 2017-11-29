@@ -1,0 +1,13 @@
+So, my scripts referred you to this file, right. Wow I made the smart. Okay, so it required a special variable that the script could not insert itself, so here I am with the required variable(s).
+
+----------------------------------------------
+Script: BuildENV2.sh
+
+Variable:
+	
+# add Android SDK platform tools to path
+if [ -d "$HOME/platform-tools" ] ; then
+    PATH="$HOME/platform-tools:$PATH"
+fi
+
+*Copy and paste above into the editor when it appears in Terminal (after it asks you for the password. Then follow the instructions at the bottom of the editor to save.
